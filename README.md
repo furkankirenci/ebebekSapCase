@@ -52,7 +52,7 @@
 	append gt_product. 
 	```
 
-7)	6. Maddede yapılan çalışmalara ek olarak toplam ürün stoğunu görmemizi sağlayan bir kod satırı yazabilir misiniz?  
+7)	Altıncı maddede yapılan çalışmalara ek olarak toplam ürün stoğunu görmemizi sağlayan bir kod satırı yazabilir misiniz?  
 	```java
 	data: gv_toplamstok type int2.
 	gv_toplamstok = 0.
