@@ -50,6 +50,12 @@
 	gt_product-urunkodu = ‘EB10000007’.
 	gt_product-stok = ‘90’.
 	append gt_product. 
+	
+	
+	selection-screen begin of block part1 with frame title text-001.
+	PARAMETERS: p_urunkd type ZSD_ST_PRODUCT-urunkodu.
+	PARAMETERS: p_urunst type ZSD_ST_PRODUCT-stok.
+	selection screen end of block part1.
 	```
 
 7)	Altıncı maddede yapılan çalışmalara ek olarak toplam ürün stoğunu görmemizi sağlayan bir kod satırı yazabilir misiniz?  
