@@ -61,11 +61,17 @@
 	gv_toplamstok = gv_toplamstok + gt_product-stok.
 	endloop.
 	
-	WRITE:/ gv_toplamstok.
+	WRITE:'Toplam Stok' , gv_toplamstok.
 	```
 	
 8)	Stoğu sıfır olan ürünleri gösteren bir  rapor yazabilir misiniz ? (6. Maddedeki ürünlerin 2 tanesine stok olarak 0 değeri atayın.)  
-
+	```java
+	loop at gt_product.
+	if gt_product-stok eq 0.
+	WRITE:'Ürün Kodu' , gt_product-urunkodu , 'Stok Sayısı' , gt_product-stok.
+	endif.
+	endloop.
+	```
 
 
 <!-- CONTACT -->
